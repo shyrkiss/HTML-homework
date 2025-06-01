@@ -1,0 +1,13 @@
+footer {
+    text-align: center;
+}
+
+footer .copyright {
+    font-family: "Open Sans";
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+
+footer .copyright .bold {
+    font-weight: bold;
+}

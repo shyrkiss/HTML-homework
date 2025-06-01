@@ -1,0 +1,344 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+html {
+    background: url(rana-sawalha-364253-unsplash.png);
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.d-flex {
+    display: flex;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url(Verdana.ttf);
+}
+
+@font-face {
+    font-family: "Verdana-Bold";
+    src: url(Verdana-Bold.ttf);
+}
+
+header .background {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    margin-top: -52px;
+}
+
+header .title {
+    margin-top: 18px;
+}
+
+header .title .left a{
+    font-family: "Verdana-Bold";
+    font-size: 26px;
+    color: #fff;
+    margin-right: 600px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+header .title .left a:hover {
+    color: #3cb878;
+}
+
+header .right .icons {
+    font-family: "Verdana-Bold";
+    font-size: 28px;
+    color:#fff;
+}
+
+header .right .icons .calendar {
+    margin-right: 30px;
+}
+
+header .right .icons .calendar a:hover {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(14%) saturate(1883%) hue-rotate(96deg) brightness(102%) contrast(75%);
+}
+
+header .right .icons .forum {
+    margin-right: 30px;
+}
+
+header .right .icons .forum a:hover {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(14%) saturate(1883%) hue-rotate(96deg) brightness(102%) contrast(75%);
+}
+
+header .right .icons .journey {
+    margin-right: 30px;
+}
+
+header .right .icons .journey a:hover {
+    filter: brightness(0) saturate(100%) invert(60%) sepia(14%) saturate(1883%) hue-rotate(96deg) brightness(102%) contrast(75%);
+}
+
+header .right .icons .line {
+    margin-right: 30px;
+}
+
+header .right .welcome {
+    font-family: "Verdana";
+    float: right;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+header .right .welcome a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .right .welcome .log-in a{
+    color: #3cb878;
+}
+
+header .right .welcome .sign-up a{
+    color: #3cb878;
+}
+
+header .right .welcome .log-in a:hover{
+    text-decoration: underline;
+}
+
+header .right .welcome .sign-up a:hover{
+    text-decoration: underline;
+}
+
+section .form {
+    background-color: #fff;
+    width: 445px;
+    height: 620px;
+    margin-top: 67px;
+    border-radius: 15px;
+}
+
+section .form .green {
+    width: 17px;
+    height: 17px;
+    background-color: #3cb878;
+    float: left;
+    margin-top: 28px;
+}
+
+section .form .modal-left {
+    font-family: "Verdana";
+    font-size: 20px;
+    color: #434343;
+    margin-left: 62px;
+    padding-top: 24px;
+}
+
+section .form .modal-right a{
+    color: #3cb878;
+    text-decoration: none;
+    float: right;
+    font-family: "Verdana";
+    font-size: 14px;
+    margin-right: 58px;
+    margin-top: -17px;
+}
+
+section .form .modal-right a:hover{
+    text-decoration: underline;
+}
+
+section .form .facebook button{
+    color: #fff;
+    background-color: #305db8;
+    border-radius: 5px;
+    display: flex;
+    width: 155px;
+    height: 42px;
+    font-family: "Verdana";
+    cursor: pointer;
+    border-style: none;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    margin-left: 64px;
+    margin-top: 20px;
+}
+
+section .form .facebook button:hover {
+    background-color: #264b96;
+}
+
+section .form .icon-google img {
+    padding-top: 3px;
+}
+
+section .form .icon-line img {
+    margin-top: -3px;
+}
+
+section .form .google button{
+    color: #fff;
+    background-color: #df4a32;
+    border-radius: 5px;
+    display: flex;
+    width: 155px;
+    height: 42px;
+    font-family: "Verdana";
+    cursor: pointer;
+    border-style: none;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 64px;
+    margin-top: 20px;
+}
+
+section .form .google button:hover {
+    background-color: #c3412c;
+}
+
+section .form .or {
+    font-family: "Verdana";
+    font-size: 14px;
+    justify-content: center;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    color: #8e8e8e;
+    margin-left: 64px;
+}
+
+section .form .or .space {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+section .form input {
+    outline: none;
+}
+
+section .form input:focus {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+section .form .first-name input{
+    border-radius: 5px;
+    width: 300px;
+    height: 43px;
+    border-color: #eaeaea;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+section .form .last-name input{
+    border-radius: 5px;
+    width: 300px;
+    height: 43px;
+    border-color: #eaeaea;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+section .form .email input{
+    border-radius: 5px;
+    width: 300px;
+    height: 43px;
+    border-color: #eaeaea;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+section .form .password input{
+    border-radius: 5px;
+    width: 300px;
+    height: 43px;
+    border-color: #eaeaea;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+section .form .confirm input{
+    border-radius: 5px;
+    width: 300px;
+    height: 43px;
+    border-color: #eaeaea;
+    font-family: "Verdana";
+    font-size: 14px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+
+section .form .checkbox input{
+    border-radius: 5px;
+    width: 15px;
+    border-color: #eaeaea;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+section .form .checkbox label{
+    color:#434343;
+    font-family: "Verdana";
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+section .form .checkbox label a{
+    text-decoration: none;
+    color: #3cb878;
+}
+
+section .form .checkbox label a:hover{
+    text-decoration: underline;
+}
+
+section .form .checkbox label {
+    cursor: pointer;
+}
+
+section .form .submit input{
+    border-radius: 5px;
+    width: 325px;
+    height: 43px;
+    border-color: #3cb878;;
+    font-family: "Verdana";
+    font-size: 16px;
+    padding-left: 18px;
+    margin-left: 64px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #3cb878;
+    color: #fff;
+    border: 1px solid;
+}
+
+section .form .submit input:hover {
+    background-color: #329a65;
+}
